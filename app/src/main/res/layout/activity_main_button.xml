@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityButton">
+    <Button
+        android:id="@+id/an_http"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="an_http"
+        />
+    <Button
+        android:id="@+id/an_https"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/an_http"
+        android:text="an_https"/>
+    <Button
+        android:id="@+id/x_http"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/an_https"
+        android:text="x_http"/>
+    <Button
+        android:id="@+id/x_h5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/x_http"
+        android:text="x_h5"/>
+
+</RelativeLayout>

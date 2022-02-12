@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	
+</head>
+<body>
+	
+	<h1>这是H5页面</h1>
+
+<button type="button" onclick="origin()">点击调用原生方法</button>
+	<p id="origin" >我是原生方法的返回值</p>
+<button type="button" onclick="getElementById('time').innerHTML=Date()">现在的时间是</button>
+<p id="time"></p>
+<script >
+		function origin(){
+		var result=window.android.show();
+		document.getElementById("origin").innerHTML=result;
+
+		}
+		function B(a,b){
+		return a+b;
+
+
+		}
+
+	</script>
+
+
+</body>
+</html>
